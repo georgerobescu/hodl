@@ -5,4 +5,4 @@ const solc = require('solc');
 const contractPath = path.resolve(__dirname, 'contracts', 'Hodl.sol');
 const source = fs.readFileSync(contractPath, 'utf8');
 
-module.exports = solc.compile(source, 1).contracts[':Hold'];
+module.exports = solc.compile(source, 1).contracts[':Hodl'];
