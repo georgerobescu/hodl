@@ -1,10 +1,10 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.4.25;
 
 contract Hodl {
-    address payable recipient;
+    address recipient;
     uint public earliest;
 
-    constructor(address payable _recipient, uint fromNow) payable public {
+    constructor(address _recipient, uint fromNow) public {
         recipient = _recipient;
         earliest = now + fromNow;
     }

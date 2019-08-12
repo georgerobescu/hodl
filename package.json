@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "solc": "^0.4.25",
     "web3": "^1.0.0-beta.55"
   },
   "devDependencies": {},
