@@ -18,12 +18,25 @@ beforeEach(async () => {
   accounts = await web3.eth.getAccounts();
 
   hodl = await new web3.eth.Contract(JSON.parse(interface))
-    .deploy({data: bytecode, arguments: [accounts[1], 30]})
+    .deploy({data: bytecode, arguments: [accounts[1], 2]})
     .send({from: accounts[0], gas: '1000000'});
 });
 
-describe('Hodl', () => {
+describe('hodl', function() {
+  this.timeout(3000);
+
   it('deploys a contract', () => {
     assert.ok(hodl.options.address);
+  });
+
+  it('prevents withdrawal before earliest', () => {
+    assert.rejects(hodl.methods.withdraw().send({from: accounts[1]}));
+  });
+
+  it('allows withdrawal after earliest', (done) => {
+    setTimeout(function() {
+      assert.ok(hodl.methods.withdraw().send({from: accounts[1]}));
+      done();
+    }, 2000);
   });
 });
