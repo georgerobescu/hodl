@@ -1,27 +1,49 @@
 {
-  "name": "hodl",
+  "name": "starter-kit",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "ganache-cli": "^6.5.1",
-    "mocha": "^6.2.0",
-    "solc": "^0.4.25",
-    "truffle-hdwallet-provider": "^1.0.17",
-    "web3": "^1.0.0-beta.35"
-  },
-  "devDependencies": {},
+  "description": "OpenZeppelin kit containing React, & OpenZeppelin SDK",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-push": "cd client && npm run pre-push",
+    "pre-commit": "cd client && npm run pre-commit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run pre-push",
+      "pre-commit": "npm run pre-commit"
+    }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KadenZipfel/hodl.git"
+    "url": "git+https://github.com/OpenZeppelin/starter-kit"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "openzeppelin",
+    "truffle",
+    "react",
+    "dapp",
+    "infura",
+    "metamask",
+    "web3",
+    "ganache",
+    "web3js",
+    "ethereum"
+  ],
+  "author": "Ramon Recuero <ramon@dapis.io>, Igor Yalovoy <to@ylv.io>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KadenZipfel/hodl/issues"
+    "url": "https://github.com/OpenZeppelin/starter-kit/issues"
   },
-  "homepage": "https://github.com/KadenZipfel/hodl#readme"
+  "homepage": "https://github.com/OpenZeppelin/starter-kit/blob/stable/README.md",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "truffle-hdwallet-provider": "^1.0.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.5.3",
+    "chai": "^4.2.0",
+    "husky": "^3.0.4",
+    "openzeppelin-test-helpers": "^0.4.3"
+  }
 }
