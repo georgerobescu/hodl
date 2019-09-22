@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './components/Nav';
+import Hero from './components/Hero';
 
 import { useWeb3Injected, useWeb3Network } from '@openzeppelin/network/react';
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <div>
       <Nav />
+      <Hero />
     </div>
   );
 }
