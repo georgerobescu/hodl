@@ -4,12 +4,12 @@ import '../layout/components/nav.sass';
 
 function Nav() {
   return (
-    <nav class="nav">
-      <a href="/" class="nav__brand">
+    <nav className="nav">
+      <a href="/" className="nav__brand">
         HODL
       </a>
-      <a href="https://github.com/KadenZipfel/hodl" class="nav__icon">
-        <img src={github} alt="Github" class="nav__icon" />
+      <a href="https://github.com/KadenZipfel/hodl" className="nav__icon">
+        <img src={github} alt="Github" className="nav__icon" />
       </a>
     </nav>
   )
