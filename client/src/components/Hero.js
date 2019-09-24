@@ -1,7 +1,7 @@
 import React from 'react';
 import '../layout/components/hero.sass';
 
-function Hero() {
+function Hero(props) {
   return (
     <section className="hero">
       <h4 className="hero__subheader">Weak hands?</h4>
@@ -29,7 +29,7 @@ function Hero() {
         <br />
         smart contract for as long as specified and can only be 
         <br />
-        withdrawn by the transaction sender.
+        withdrawn by {props.address}.
       </p>
     </section>
   )

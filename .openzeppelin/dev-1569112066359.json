@@ -1,0 +1,88 @@
+{
+  "contracts": {
+    "Hodl": {
+      "address": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+      "constructorCode": "608060405234801561001057600080fd5b506103e3806100206000396000f3fe",
+      "bodyBytecodeHash": "99c322e7ed0814fd011b10deec61718942ce40842697683765fcbb54b67d4413",
+      "localBytecodeHash": "3c21178e5e8bd52807cc63bd9cd21cad397aedc3d4743858f596093799b71c45",
+      "deployedBytecodeHash": "3c21178e5e8bd52807cc63bd9cd21cad397aedc3d4743858f596093799b71c45",
+      "types": {
+        "t_struct<Hodl.User>": {
+          "id": "t_struct<Hodl.User>",
+          "kind": "struct",
+          "label": "Hodl.User",
+          "members": [
+            {
+              "label": "earliest",
+              "astId": 3,
+              "type": "t_uint256",
+              "src": "61:13:0"
+            },
+            {
+              "label": "amount",
+              "astId": 5,
+              "type": "t_uint256",
+              "src": "80:11:0"
+            },
+            {
+              "label": "hodler",
+              "astId": 7,
+              "type": "t_bool",
+              "src": "97:11:0"
+            }
+          ]
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_mapping<t_struct<Hodl.User>>": {
+          "id": "t_mapping<t_struct<Hodl.User>>",
+          "valueType": "t_struct<Hodl.User>",
+          "label": "mapping(key => Hodl.User)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Hodl",
+          "path": "contracts/Hodl.sol",
+          "label": "users",
+          "astId": 12,
+          "type": "t_mapping<t_struct<Hodl.User>>",
+          "src": "119:38:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "hodl/Hodl": [
+      {
+        "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
+        "version": "1.0.0",
+        "implementation": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+        "admin": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24"
+  }
+}

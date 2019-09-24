@@ -14,10 +14,12 @@ function App() {
     pollInterval: 10 * 1000,
   });
 
+  console.log(injected);
+
   return (
     <div>
       <Nav />
-      <Hero />
+      <Hero address={injected.accounts[0]} />
     </div>
   );
 }

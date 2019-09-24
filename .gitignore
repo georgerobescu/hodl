@@ -2,3 +2,4 @@ node_modules
 keys.js
 build/
 .DS_Store
+.openzeppelin/.session
