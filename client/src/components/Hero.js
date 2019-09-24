@@ -7,7 +7,7 @@ function Hero(props) {
       <h4 className="hero__subheader">Weak hands?</h4>
       <h1 className="hero__header">HODL</h1>
       <p className="hero__directions">
-        Enter amount and lockup time (in seconds).
+        Enter amount and lockup time.
       </p>
       <form>
         <input 
