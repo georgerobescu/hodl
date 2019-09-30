@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv').config();
 const mnemonic = process.env.MNENOMIC;
 const HDWalletProvider = require("truffle-hdwallet-provider");
@@ -14,10 +15,14 @@ const configNetwok = (network, networkId, path = "m/44'/60'/0'/0/", gas = 446503
   gas,
   gasPrice,
 });
+=======
+const path = require("path");
+>>>>>>> rollback
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
+<<<<<<< HEAD
   networks: {
     development: {
       host: "127.0.0.1",
@@ -29,4 +34,12 @@ module.exports = {
     rinkeby: configNetwok('rinkeby', 4),
     main: configNetwok('mainnet', 1),
   },
+=======
+  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
+  networks: {
+    develop: {
+      port: 8545
+    }
+  }
+>>>>>>> rollback
 };
