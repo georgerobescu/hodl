@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SimpleStorageContract from "./contracts/SimpleStorage.json";
+import HodlContract from "./contracts/Hodl.json";
 import getWeb3 from "./utils/getWeb3";
 
 import Nav from './components/Nav';
@@ -8,7 +8,7 @@ import Hero from './components/Hero';
 import './layout/config/_base.sass';
 
 class App extends Component {
-  state = { storageValue: 0, web3: null, accounts: null, contract: null };
+  state = { web3: null, accounts: null, contract: null };
 
   componentDidMount = async () => {
     try {
@@ -20,9 +20,9 @@ class App extends Component {
 
       // Get the contract instance.
       const networkId = await web3.eth.net.getId();
-      const deployedNetwork = SimpleStorageContract.networks[networkId];
+      const deployedNetwork = HodlContract.networks[networkId];
       const instance = new web3.eth.Contract(
-        SimpleStorageContract.abi,
+        HodlContract.abi,
         deployedNetwork && deployedNetwork.address,
       );
 
@@ -38,19 +38,6 @@ class App extends Component {
     }
   };
 
-  runExample = async () => {
-    const { accounts, contract } = this.state;
-
-    // Stores a given value, 5 by default.
-    await contract.methods.set(1).send({ from: accounts[0] });
-
-    // Get the value from the contract to prove it worked.
-    const response = await contract.methods.get().call();
-
-    // Update state with the result.
-    this.setState({ storageValue: response });
-  };
-
   render() {
     if (!this.state.web3) {
       return <div>Loading Web3, accounts, and contract...</div>;
@@ -58,7 +45,7 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <Hero />
+        <Hero address={this.state.accounts[0]} />
       </div>
     );
   }
