@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-import './layout/index.scss';
-=======
 import './layout/index.css';
->>>>>>> rollback
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
