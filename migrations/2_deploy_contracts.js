@@ -1,5 +1,8 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+var Hodl = artifacts.require("./Hodl.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
+  deployer.deploy(Hodl)
+    .then(() => {
+      console.log(Hodl.address);
+    });
 };

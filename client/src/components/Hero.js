@@ -23,10 +23,19 @@ class Hero extends Component {
   }
 
   handleSubmit(e) {
+    e.preventDefault();
+
     console.log('Amount: ', this.state.amount);
     console.log('Time: ', this.state.time);
-    
-    e.preventDefault();
+    console.log('Contract: ', this.props.contract);
+
+    this.props.contract.methods.deposit(
+      this.state.time, 
+      this.state.amount
+    ).send(
+      {from: this.props.accounts[0],
+      value: this.state.amount}
+    );
   }
 
   render() {
