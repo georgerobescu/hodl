@@ -28,4 +28,8 @@ contract Hodl {
     user.hodler = false;
     msg.sender.transfer(user.amount);
   }
+  
+  function getUser(address _user) public view returns(uint, uint, bool) {
+    return(users[_user].earliest, users[_user].amount, users[_user].hodler);
+  }
 }

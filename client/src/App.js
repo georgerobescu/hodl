@@ -36,7 +36,15 @@ class App extends Component {
       );
       console.error(error);
     }
+
+    this.getUser();
   };
+
+  getUser() {
+    this.state.contract.methods.getUser(this.state.accounts[0]).call((err, user) => {
+      console.log('User: ', user);
+    });
+  }
 
   render() {
     if (!this.state.web3) {
