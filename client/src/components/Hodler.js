@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import '../layout/components/hodler.sass';
+
 class Hodler extends Component {
   getTime(earliest, now) {
     if(earliest < now) {
@@ -17,7 +19,7 @@ class Hodler extends Component {
             Eth locked:
           </p>
           <p className="hodler__value">
-            {this.props.web3.utils.fromWei(this.props.user.amount, 'ether')} eth
+            <span>{this.props.web3.utils.fromWei(this.props.user.amount, 'ether')}</span> eth
           </p>
         </div>
         <div className="hodler__group">
@@ -26,7 +28,7 @@ class Hodler extends Component {
           </p>
           <p className="hodler__value">
             {/* Add proper units */}
-            {this.getTime(this.props.user.earliest, Math.floor(Date.now() / 1000))}
+            <span>{this.getTime(this.props.user.earliest, Math.floor(Date.now() / 1000))}</span> seconds
           </p>
         </div>
         <button className="hodler__button">
