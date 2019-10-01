@@ -4,11 +4,12 @@ import getWeb3 from "./utils/getWeb3";
 
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import Hodler from './components/Hodler';
 
 import './layout/config/_base.sass';
 
 class App extends Component {
-  state = { web3: null, accounts: null, contract: null };
+  state = { web3: null, accounts: null, contract: null, user: null };
 
   componentDidMount = async () => {
     try {
@@ -40,9 +41,13 @@ class App extends Component {
     this.getUser();
   };
 
-  getUser() {
-    this.state.contract.methods.getUser(this.state.accounts[0]).call((err, user) => {
-      console.log('User: ', user);
+  async getUser() {
+    await this.state.contract.methods.getUser(this.state.accounts[0]).call((err, user) => {
+      this.setState({user: {
+        earliest: user[0],
+        amount: user[1],
+        hodler: user[2]
+      }});
     });
   }
 
@@ -50,12 +55,22 @@ class App extends Component {
     if (!this.state.web3) {
       return <div>Loading Web3, accounts, and contract...</div>;
     }
-    return (
-      <div>
-        <Nav />
-        <Hero {...this.state} />
-      </div>
-    );
+    console.log(this.state.user);
+    if (this.state.user && this.state.user.hodler) {
+      return (
+        <div>
+          <Nav />
+          <Hodler {...this.state} />
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <Nav />
+          <Hero {...this.state} />
+        </div>
+      );
+    }
   }
 }
 
