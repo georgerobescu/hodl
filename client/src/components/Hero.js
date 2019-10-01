@@ -15,7 +15,7 @@ class Hero extends Component {
   }
 
   handleAmountChange(e) {
-    this.setState({amount: e.target.value})
+    this.setState({amount: e.target.value});
   }
 
   handleTimeChange(e) {
@@ -31,10 +31,10 @@ class Hero extends Component {
 
     this.props.contract.methods.deposit(
       this.state.time, 
-      this.state.amount
+      this.props.web3.utils.toWei(this.state.amount)
     ).send(
       {from: this.props.accounts[0],
-      value: this.state.amount}
+      value: this.props.web3.utils.toWei(this.state.amount)}
     );
   }
 
