@@ -14,7 +14,8 @@ contract Hodl {
     User storage user = users[msg.sender];
     require(user.hodler == false, 'You can only hodl once per account.');
     
-    user.earliest = now + fromNow;
+    // 15 second time padding is used to compensate for block.timestamp
+    user.earliest = now + fromNow + 15;
     user.amount = _amount;
     user.hodler = true;
   }

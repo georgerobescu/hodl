@@ -56,21 +56,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"getUser\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"fromNow\",\"type\":\"uint256\"},{\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/kaden/Documents/code/hodl/contracts/Hodl.sol\":\"Hodl\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/kaden/Documents/code/hodl/contracts/Hodl.sol\":{\"keccak256\":\"0x2b1f31db2592fd22179170dc5836f99f267fb532669a13bb14d618c66f2142c4\",\"urls\":[\"bzzr://d607d8848c7f43c31d0dbea15d8b334e6101a4349aeb66fd71528c370cd29a8f\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610580806100206000396000f3fe6080604052600436106100345760003560e01c80633ccfd60b146100395780636f77926b14610050578063e2bbb158146100c7575b600080fd5b34801561004557600080fd5b5061004e6100ff565b005b34801561005c57600080fd5b5061009f6004803603602081101561007357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610287565b6040518084815260200183815260200182151515158152602001935050505060405180910390f35b6100fd600480360360408110156100dd57600080fd5b81019080803590602001909291908035906020019092919050505061036c565b005b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600115158160020160009054906101000a900460ff161515146101af576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001806104ce602a913960400191505060405180910390fd5b806000015442101561020c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602681526020018061052f6026913960400191505060405180910390fd5b60008160010154905060008260020160006101000a81548160ff021916908315150217905550600082600101819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610282573d6000803e3d6000fd5b505050565b60008060008060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001546000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101546000808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020160009054906101000a900460ff169250925092509193909250565b8034146103c4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260378152602001806104f86037913960400191505060405180910390fd5b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600015158160020160009054906101000a900460ff16151514610474576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260238152602001806104ab6023913960400191505060405180910390fd5b824201816000018190555081816001018190555060018160020160006101000a81548160ff02191690831515021790555050505056fe596f752063616e206f6e6c7920686f646c206f6e636520706572206163636f756e742e596f75206d757374206265206120686f646c657220746f206d616b652061207769746864726177616c2e596f75206d7573742073656e642074686520636f727265637420616d6f756e74207769746820796f7572207472616e73616374696f6e2e596f752063616e6e6f742079657420776974686472617720796f757220686f6c64696e67732ea165627a7a723058200f210bf24e0e6d136ad16e338a7ad6d9abedfb1e9fde342dd6d6218acf54be180029",
-  "deployedBytecode": "0x6080604052600436106100345760003560e01c80633ccfd60b146100395780636f77926b14610050578063e2bbb158146100c7575b600080fd5b34801561004557600080fd5b5061004e6100ff565b005b34801561005c57600080fd5b5061009f6004803603602081101561007357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610287565b6040518084815260200183815260200182151515158152602001935050505060405180910390f35b6100fd600480360360408110156100dd57600080fd5b81019080803590602001909291908035906020019092919050505061036c565b005b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600115158160020160009054906101000a900460ff161515146101af576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001806104ce602a913960400191505060405180910390fd5b806000015442101561020c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602681526020018061052f6026913960400191505060405180910390fd5b60008160010154905060008260020160006101000a81548160ff021916908315150217905550600082600101819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610282573d6000803e3d6000fd5b505050565b60008060008060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001546000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101546000808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020160009054906101000a900460ff169250925092509193909250565b8034146103c4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260378152602001806104f86037913960400191505060405180910390fd5b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600015158160020160009054906101000a900460ff16151514610474576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260238152602001806104ab6023913960400191505060405180910390fd5b824201816000018190555081816001018190555060018160020160006101000a81548160ff02191690831515021790555050505056fe596f752063616e206f6e6c7920686f646c206f6e636520706572206163636f756e742e596f75206d757374206265206120686f646c657220746f206d616b652061207769746864726177616c2e596f75206d7573742073656e642074686520636f727265637420616d6f756e74207769746820796f7572207472616e73616374696f6e2e596f752063616e6e6f742079657420776974686472617720796f757220686f6c64696e67732ea165627a7a723058200f210bf24e0e6d136ad16e338a7ad6d9abedfb1e9fde342dd6d6218acf54be180029",
-  "sourceMap": "27:1062:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:1062:0;;;;;;;",
-  "deployedSourceMap": "27:1062:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;556:368;;8:9:-1;5:2;;;30:1;27;20:12;5:2;556:368:0;;;:::i;:::-;;932:154;;8:9:-1;5:2;;;30:1;27;20:12;5:2;932:154:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;932:154:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;173:375;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;173:375:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;556:368;590:17;610:5;:17;616:10;610:17;;;;;;;;;;;;;;;590:37;;663:4;648:19;;:4;:11;;;;;;;;;;;;:19;;;640:74;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;736:4;:13;;;729:3;:20;;721:71;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;805:11;819:4;:11;;;805:25;;857:5;843:4;:11;;;:19;;;;;;;;;;;;;;;;;;883:1;869:4;:11;;:15;;;;891:10;:19;;:27;911:6;891:27;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;891:27:0;556:368;;:::o;932:154::-;984:4;990;996;1016:5;:12;1022:5;1016:12;;;;;;;;;;;;;;;:21;;;1039:5;:12;1045:5;1039:12;;;;;;;;;;;;;;;:19;;;1060:5;:12;1066:5;1060:12;;;;;;;;;;;;;;;:19;;;;;;;;;;;;1009:71;;;;;;932:154;;;;;:::o;173:375::-;261:7;248:9;:20;240:88;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;335:17;355:5;:17;361:10;355:17;;;;;;;;;;;;;;;335:37;;402:5;387:20;;:4;:11;;;;;;;;;;;;:20;;;379:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;482:7;476:3;:13;460:4;:13;;:29;;;;510:7;496:4;:11;;:21;;;;538:4;524;:11;;;:18;;;;;;;;;;;;;;;;;;173:375;;;:::o",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Hodl {\r\n  struct User {\r\n    uint earliest;\r\n    uint amount;\r\n    bool hodler;\r\n  }\r\n  \r\n  mapping(address => User) private users;\r\n\r\n  function deposit(uint fromNow, uint _amount) public payable {\r\n    require(msg.value == _amount, 'You must send the correct amount with your transaction.');\r\n    User storage user = users[msg.sender];\r\n    require(user.hodler == false, 'You can only hodl once per account.');\r\n    \r\n    user.earliest = now + fromNow;\r\n    user.amount = _amount;\r\n    user.hodler = true;\r\n  }\r\n  \r\n  function withdraw() public {\r\n    User storage user = users[msg.sender];\r\n    \r\n    require(user.hodler == true, \"You must be a hodler to make a withdrawal.\");\r\n    require(now >= user.earliest, \"You cannot yet withdraw your holdings.\");\r\n    \r\n    uint amount = user.amount;\r\n    \r\n    user.hodler = false;\r\n    user.amount = 0;\r\n    msg.sender.transfer(amount);\r\n  }\r\n  \r\n  function getUser(address _user) view public returns(uint, uint, bool) {\r\n    return(users[_user].earliest, users[_user].amount, users[_user].hodler);\r\n  }\r\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"getUser\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"fromNow\",\"type\":\"uint256\"},{\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"deposit\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/kaden/Documents/code/hodl/contracts/Hodl.sol\":\"Hodl\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/kaden/Documents/code/hodl/contracts/Hodl.sol\":{\"keccak256\":\"0x5509cdfe90a83afcc7f26b0300dc294e2952e7926f0ef8e88b8800d55ef603f4\",\"urls\":[\"bzzr://cfdcf4a1e22f26105f7076d704e05a8b2c9fd840ffce010b1372a9c905f8b915\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610583806100206000396000f3fe6080604052600436106100345760003560e01c80633ccfd60b146100395780636f77926b14610050578063e2bbb158146100c7575b600080fd5b34801561004557600080fd5b5061004e6100ff565b005b34801561005c57600080fd5b5061009f6004803603602081101561007357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610287565b6040518084815260200183815260200182151515158152602001935050505060405180910390f35b6100fd600480360360408110156100dd57600080fd5b81019080803590602001909291908035906020019092919050505061036c565b005b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600115158160020160009054906101000a900460ff161515146101af576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001806104d1602a913960400191505060405180910390fd5b806000015442101561020c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260268152602001806105326026913960400191505060405180910390fd5b60008160010154905060008260020160006101000a81548160ff021916908315150217905550600082600101819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610282573d6000803e3d6000fd5b505050565b60008060008060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001546000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101546000808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020160009054906101000a900460ff169250925092509193909250565b8034146103c4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260378152602001806104fb6037913960400191505060405180910390fd5b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600015158160020160009054906101000a900460ff16151514610474576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260238152602001806104ae6023913960400191505060405180910390fd5b600f83420101816000018190555081816001018190555060018160020160006101000a81548160ff02191690831515021790555050505056fe596f752063616e206f6e6c7920686f646c206f6e636520706572206163636f756e742e596f75206d757374206265206120686f646c657220746f206d616b652061207769746864726177616c2e596f75206d7573742073656e642074686520636f727265637420616d6f756e74207769746820796f7572207472616e73616374696f6e2e596f752063616e6e6f742079657420776974686472617720796f757220686f6c64696e67732ea165627a7a723058203f045ff793f1f5485538c3450ffb79d023aad9828a8963e1cdafcc8c344484e70029",
+  "deployedBytecode": "0x6080604052600436106100345760003560e01c80633ccfd60b146100395780636f77926b14610050578063e2bbb158146100c7575b600080fd5b34801561004557600080fd5b5061004e6100ff565b005b34801561005c57600080fd5b5061009f6004803603602081101561007357600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610287565b6040518084815260200183815260200182151515158152602001935050505060405180910390f35b6100fd600480360360408110156100dd57600080fd5b81019080803590602001909291908035906020019092919050505061036c565b005b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600115158160020160009054906101000a900460ff161515146101af576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602a8152602001806104d1602a913960400191505060405180910390fd5b806000015442101561020c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260268152602001806105326026913960400191505060405180910390fd5b60008160010154905060008260020160006101000a81548160ff021916908315150217905550600082600101819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610282573d6000803e3d6000fd5b505050565b60008060008060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001546000808673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101546000808773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020160009054906101000a900460ff169250925092509193909250565b8034146103c4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260378152602001806104fb6037913960400191505060405180910390fd5b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000209050600015158160020160009054906101000a900460ff16151514610474576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260238152602001806104ae6023913960400191505060405180910390fd5b600f83420101816000018190555081816001018190555060018160020160006101000a81548160ff02191690831515021790555050505056fe596f752063616e206f6e6c7920686f646c206f6e636520706572206163636f756e742e596f75206d757374206265206120686f646c657220746f206d616b652061207769746864726177616c2e596f75206d7573742073656e642074686520636f727265637420616d6f756e74207769746820796f7572207472616e73616374696f6e2e596f752063616e6e6f742079657420776974686472617720796f757220686f6c64696e67732ea165627a7a723058203f045ff793f1f5485538c3450ffb79d023aad9828a8963e1cdafcc8c344484e70029",
+  "sourceMap": "27:1140:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:1140:0;;;;;;;",
+  "deployedSourceMap": "27:1140:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;634:368;;8:9:-1;5:2;;;30:1;27;20:12;5:2;634:368:0;;;:::i;:::-;;1010:154;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1010:154:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1010:154:0;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;173:453;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;173:453:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;634:368;668:17;688:5;:17;694:10;688:17;;;;;;;;;;;;;;;668:37;;741:4;726:19;;:4;:11;;;;;;;;;;;;:19;;;718:74;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;814:4;:13;;;807:3;:20;;799:71;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;883:11;897:4;:11;;;883:25;;935:5;921:4;:11;;;:19;;;;;;;;;;;;;;;;;;961:1;947:4;:11;;:15;;;;969:10;:19;;:27;989:6;969:27;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;969:27:0;634:368;;:::o;1010:154::-;1062:4;1068;1074;1094:5;:12;1100:5;1094:12;;;;;;;;;;;;;;;:21;;;1117:5;:12;1123:5;1117:12;;;;;;;;;;;;;;;:19;;;1138:5;:12;1144:5;1138:12;;;;;;;;;;;;;;;:19;;;;;;;;;;;;1087:71;;;;;;1010:154;;;;;:::o;173:453::-;261:7;248:9;:20;240:88;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;335:17;355:5;:17;361:10;355:17;;;;;;;;;;;;;;;335:37;;402:5;387:20;;:4;:11;;;;;;;;;;;;:20;;;379:68;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;565:2;555:7;549:3;:13;:18;533:4;:13;;:34;;;;588:7;574:4;:11;;:21;;;;616:4;602;:11;;;:18;;;;;;;;;;;;;;;;;;173:453;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Hodl {\r\n  struct User {\r\n    uint earliest;\r\n    uint amount;\r\n    bool hodler;\r\n  }\r\n  \r\n  mapping(address => User) private users;\r\n\r\n  function deposit(uint fromNow, uint _amount) public payable {\r\n    require(msg.value == _amount, 'You must send the correct amount with your transaction.');\r\n    User storage user = users[msg.sender];\r\n    require(user.hodler == false, 'You can only hodl once per account.');\r\n    \r\n    // 15 second time padding is used to compensate for block.timestamp\r\n    user.earliest = now + fromNow + 15;\r\n    user.amount = _amount;\r\n    user.hodler = true;\r\n  }\r\n  \r\n  function withdraw() public {\r\n    User storage user = users[msg.sender];\r\n    \r\n    require(user.hodler == true, \"You must be a hodler to make a withdrawal.\");\r\n    require(now >= user.earliest, \"You cannot yet withdraw your holdings.\");\r\n    \r\n    uint amount = user.amount;\r\n    \r\n    user.hodler = false;\r\n    user.amount = 0;\r\n    msg.sender.transfer(amount);\r\n  }\r\n  \r\n  function getUser(address _user) view public returns(uint, uint, bool) {\r\n    return(users[_user].earliest, users[_user].amount, users[_user].hodler);\r\n  }\r\n}",
   "sourcePath": "C:/Users/kaden/Documents/code/hodl/contracts/Hodl.sol",
   "ast": {
     "absolutePath": "/C/Users/kaden/Documents/code/hodl/contracts/Hodl.sol",
     "exportedSymbols": {
       "Hodl": [
-        142
+        144
       ]
     },
-    "id": 143,
+    "id": 145,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -90,9 +90,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 142,
+        "id": 144,
         "linearizedBaseContracts": [
-          142
+          144
         ],
         "name": "Hodl",
         "nodeType": "ContractDefinition",
@@ -182,7 +182,7 @@
             ],
             "name": "User",
             "nodeType": "StructDefinition",
-            "scope": 142,
+            "scope": 144,
             "src": "46:74:0",
             "visibility": "public"
           },
@@ -191,7 +191,7 @@
             "id": 12,
             "name": "users",
             "nodeType": "VariableDeclaration",
-            "scope": 142,
+            "scope": 144,
             "src": "128:38:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -235,9 +235,9 @@
           },
           {
             "body": {
-              "id": 62,
+              "id": 64,
               "nodeType": "Block",
-              "src": "233:315:0",
+              "src": "233:393:0",
               "statements": [
                 {
                   "expression": {
@@ -262,7 +262,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 214,
+                            "referencedDeclaration": 216,
                             "src": "248:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -338,10 +338,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
+                      "referencedDeclaration": 220,
                       "src": "240:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -376,7 +376,7 @@
                       "id": 28,
                       "name": "user",
                       "nodeType": "VariableDeclaration",
-                      "scope": 62,
+                      "scope": 64,
                       "src": "335:17:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
@@ -425,7 +425,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 214,
+                        "referencedDeclaration": 216,
                         "src": "361:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -564,10 +564,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
+                      "referencedDeclaration": 220,
                       "src": "379:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -595,7 +595,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 48,
+                    "id": 50,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -609,7 +609,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 28,
-                        "src": "460:4:0",
+                        "src": "533:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
@@ -623,7 +623,7 @@
                       "memberName": "earliest",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 3,
-                      "src": "460:13:0",
+                      "src": "533:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -637,19 +637,51 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 47,
+                      "id": 49,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "argumentTypes": null,
-                        "id": 45,
-                        "name": "now",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "476:3:0",
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 47,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 45,
+                          "name": "now",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 218,
+                          "src": "549:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "+",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "id": 46,
+                          "name": "fromNow",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 14,
+                          "src": "555:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "src": "549:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -659,37 +691,42 @@
                       "operator": "+",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 46,
-                        "name": "fromNow",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 14,
-                        "src": "482:7:0",
+                        "hexValue": "3135",
+                        "id": 48,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "565:2:0",
+                        "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
+                          "typeIdentifier": "t_rational_15_by_1",
+                          "typeString": "int_const 15"
+                        },
+                        "value": "15"
                       },
-                      "src": "476:13:0",
+                      "src": "549:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "460:29:0",
+                    "src": "533:34:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 49,
+                  "id": 51,
                   "nodeType": "ExpressionStatement",
-                  "src": "460:29:0"
+                  "src": "533:34:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 54,
+                    "id": 56,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -698,18 +735,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 50,
+                        "id": 52,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 28,
-                        "src": "496:4:0",
+                        "src": "574:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 52,
+                      "id": 54,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -717,7 +754,7 @@
                       "memberName": "amount",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 5,
-                      "src": "496:11:0",
+                      "src": "574:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -727,31 +764,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 53,
+                      "id": 55,
                       "name": "_amount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 16,
-                      "src": "510:7:0",
+                      "src": "588:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "496:21:0",
+                    "src": "574:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 55,
+                  "id": 57,
                   "nodeType": "ExpressionStatement",
-                  "src": "496:21:0"
+                  "src": "574:21:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 60,
+                    "id": 62,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -760,18 +797,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 56,
+                        "id": 58,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 28,
-                        "src": "524:4:0",
+                        "src": "602:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 58,
+                      "id": 60,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -779,7 +816,7 @@
                       "memberName": "hodler",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 7,
-                      "src": "524:11:0",
+                      "src": "602:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -790,14 +827,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "74727565",
-                      "id": 59,
+                      "id": 61,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "538:4:0",
+                      "src": "616:4:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -805,20 +842,20 @@
                       },
                       "value": "true"
                     },
-                    "src": "524:18:0",
+                    "src": "602:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 61,
+                  "id": 63,
                   "nodeType": "ExpressionStatement",
-                  "src": "524:18:0"
+                  "src": "602:18:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 63,
+            "id": 65,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -833,7 +870,7 @@
                   "id": 14,
                   "name": "fromNow",
                   "nodeType": "VariableDeclaration",
-                  "scope": 63,
+                  "scope": 65,
                   "src": "190:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -859,7 +896,7 @@
                   "id": 16,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 63,
+                  "scope": 65,
                   "src": "204:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -889,30 +926,30 @@
               "parameters": [],
               "src": "233:0:0"
             },
-            "scope": 142,
-            "src": "173:375:0",
+            "scope": 144,
+            "src": "173:453:0",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 114,
+              "id": 116,
               "nodeType": "Block",
-              "src": "583:341:0",
+              "src": "661:341:0",
               "statements": [
                 {
                   "assignments": [
-                    67
+                    69
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 67,
+                      "id": 69,
                       "name": "user",
                       "nodeType": "VariableDeclaration",
-                      "scope": 114,
-                      "src": "590:17:0",
+                      "scope": 116,
+                      "src": "668:17:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -921,11 +958,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 66,
+                        "id": 68,
                         "name": "User",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 8,
-                        "src": "590:4:0",
+                        "src": "668:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User"
@@ -935,39 +972,39 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 72,
+                  "id": 74,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 68,
+                      "id": 70,
                       "name": "users",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 12,
-                      "src": "610:5:0",
+                      "src": "688:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                         "typeString": "mapping(address => struct Hodl.User storage ref)"
                       }
                     },
-                    "id": 71,
+                    "id": 73,
                     "indexExpression": {
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 69,
+                        "id": 71,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 214,
-                        "src": "616:3:0",
+                        "referencedDeclaration": 216,
+                        "src": "694:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 70,
+                      "id": 72,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -975,7 +1012,7 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "616:10:0",
+                      "src": "694:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
@@ -986,14 +1023,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "610:17:0",
+                    "src": "688:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_User_$8_storage",
                       "typeString": "struct Hodl.User storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "590:37:0"
+                  "src": "668:37:0"
                 },
                 {
                   "expression": {
@@ -1005,7 +1042,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 77,
+                        "id": 79,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1014,18 +1051,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 74,
+                            "id": 76,
                             "name": "user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 67,
-                            "src": "648:4:0",
+                            "referencedDeclaration": 69,
+                            "src": "726:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                               "typeString": "struct Hodl.User storage pointer"
                             }
                           },
-                          "id": 75,
+                          "id": 77,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -1033,7 +1070,7 @@
                           "memberName": "hodler",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 7,
-                          "src": "648:11:0",
+                          "src": "726:11:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1044,14 +1081,14 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 76,
+                          "id": 78,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "663:4:0",
+                          "src": "741:4:0",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1059,7 +1096,7 @@
                           },
                           "value": "true"
                         },
-                        "src": "648:19:0",
+                        "src": "726:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1068,14 +1105,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "596f75206d757374206265206120686f646c657220746f206d616b652061207769746864726177616c2e",
-                        "id": 78,
+                        "id": 80,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "669:44:0",
+                        "src": "747:44:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_39600b71089d87aac6981eb84deb5f17c78407ed8c20811656b979e60fb05a1a",
@@ -1095,21 +1132,21 @@
                           "typeString": "literal_string \"You must be a hodler to make a withdrawal.\""
                         }
                       ],
-                      "id": 73,
+                      "id": 75,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
-                      "src": "640:7:0",
+                      "referencedDeclaration": 220,
+                      "src": "718:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 79,
+                    "id": 81,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1117,15 +1154,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "640:74:0",
+                    "src": "718:74:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 80,
+                  "id": 82,
                   "nodeType": "ExpressionStatement",
-                  "src": "640:74:0"
+                  "src": "718:74:0"
                 },
                 {
                   "expression": {
@@ -1137,19 +1174,19 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 85,
+                        "id": 87,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 82,
+                          "id": 84,
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
-                          "src": "729:3:0",
+                          "referencedDeclaration": 218,
+                          "src": "807:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1161,18 +1198,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 83,
+                            "id": 85,
                             "name": "user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 67,
-                            "src": "736:4:0",
+                            "referencedDeclaration": 69,
+                            "src": "814:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                               "typeString": "struct Hodl.User storage pointer"
                             }
                           },
-                          "id": 84,
+                          "id": 86,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -1180,13 +1217,13 @@
                           "memberName": "earliest",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 3,
-                          "src": "736:13:0",
+                          "src": "814:13:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "729:20:0",
+                        "src": "807:20:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1195,14 +1232,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "596f752063616e6e6f742079657420776974686472617720796f757220686f6c64696e67732e",
-                        "id": 86,
+                        "id": 88,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "751:40:0",
+                        "src": "829:40:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_e4c09a8f4385d4d0bea824f1898dafbf5342eba4bde8dcb1f0a96c3b4342e0c9",
@@ -1222,21 +1259,21 @@
                           "typeString": "literal_string \"You cannot yet withdraw your holdings.\""
                         }
                       ],
-                      "id": 81,
+                      "id": 83,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
-                      "src": "721:7:0",
+                      "referencedDeclaration": 220,
+                      "src": "799:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 87,
+                    "id": 89,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1244,28 +1281,28 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "721:71:0",
+                    "src": "799:71:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 88,
+                  "id": 90,
                   "nodeType": "ExpressionStatement",
-                  "src": "721:71:0"
+                  "src": "799:71:0"
                 },
                 {
                   "assignments": [
-                    90
+                    92
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 90,
+                      "id": 92,
                       "name": "amount",
                       "nodeType": "VariableDeclaration",
-                      "scope": 114,
-                      "src": "805:11:0",
+                      "scope": 116,
+                      "src": "883:11:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1273,10 +1310,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 89,
+                        "id": 91,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
-                        "src": "805:4:0",
+                        "src": "883:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1286,23 +1323,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 93,
+                  "id": 95,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 91,
+                      "id": 93,
                       "name": "user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 67,
-                      "src": "819:4:0",
+                      "referencedDeclaration": 69,
+                      "src": "897:4:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                         "typeString": "struct Hodl.User storage pointer"
                       }
                     },
-                    "id": 92,
+                    "id": 94,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
@@ -1310,19 +1347,19 @@
                     "memberName": "amount",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": 5,
-                    "src": "819:11:0",
+                    "src": "897:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "805:25:0"
+                  "src": "883:25:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 98,
+                    "id": 100,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1331,18 +1368,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 94,
+                        "id": 96,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 67,
-                        "src": "843:4:0",
+                        "referencedDeclaration": 69,
+                        "src": "921:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 96,
+                      "id": 98,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -1350,7 +1387,7 @@
                       "memberName": "hodler",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 7,
-                      "src": "843:11:0",
+                      "src": "921:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1361,14 +1398,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 97,
+                      "id": 99,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "857:5:0",
+                      "src": "935:5:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -1376,20 +1413,20 @@
                       },
                       "value": "false"
                     },
-                    "src": "843:19:0",
+                    "src": "921:19:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 99,
+                  "id": 101,
                   "nodeType": "ExpressionStatement",
-                  "src": "843:19:0"
+                  "src": "921:19:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 104,
+                    "id": 106,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1398,18 +1435,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 100,
+                        "id": 102,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 67,
-                        "src": "869:4:0",
+                        "referencedDeclaration": 69,
+                        "src": "947:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 102,
+                      "id": 104,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -1417,7 +1454,7 @@
                       "memberName": "amount",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 5,
-                      "src": "869:11:0",
+                      "src": "947:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1428,14 +1465,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 103,
+                      "id": 105,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "883:1:0",
+                      "src": "961:1:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -1443,15 +1480,15 @@
                       },
                       "value": "0"
                     },
-                    "src": "869:15:0",
+                    "src": "947:15:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 105,
+                  "id": 107,
                   "nodeType": "ExpressionStatement",
-                  "src": "869:15:0"
+                  "src": "947:15:0"
                 },
                 {
                   "expression": {
@@ -1459,12 +1496,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 111,
+                        "id": 113,
                         "name": "amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 90,
-                        "src": "911:6:0",
+                        "referencedDeclaration": 92,
+                        "src": "989:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1482,18 +1519,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 106,
+                          "id": 108,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 214,
-                          "src": "891:3:0",
+                          "referencedDeclaration": 216,
+                          "src": "969:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 109,
+                        "id": 111,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1501,13 +1538,13 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "891:10:0",
+                        "src": "969:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 110,
+                      "id": 112,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1515,13 +1552,13 @@
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "891:19:0",
+                      "src": "969:19:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 112,
+                    "id": 114,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1529,48 +1566,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "891:27:0",
+                    "src": "969:27:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 113,
+                  "id": 115,
                   "nodeType": "ExpressionStatement",
-                  "src": "891:27:0"
+                  "src": "969:27:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 115,
+            "id": 117,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "withdraw",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 64,
+              "id": 66,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "573:2:0"
+              "src": "651:2:0"
             },
             "returnParameters": {
-              "id": 65,
+              "id": 67,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "583:0:0"
+              "src": "661:0:0"
             },
-            "scope": 142,
-            "src": "556:368:0",
+            "scope": 144,
+            "src": "634:368:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 140,
+              "id": 142,
               "nodeType": "Block",
-              "src": "1002:84:0",
+              "src": "1080:84:0",
               "statements": [
                 {
                   "expression": {
@@ -1582,26 +1619,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 126,
+                            "id": 128,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 12,
-                            "src": "1016:5:0",
+                            "src": "1094:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                               "typeString": "mapping(address => struct Hodl.User storage ref)"
                             }
                           },
-                          "id": 128,
+                          "id": 130,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 127,
+                            "id": 129,
                             "name": "_user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
-                            "src": "1022:5:0",
+                            "referencedDeclaration": 119,
+                            "src": "1100:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1612,13 +1649,13 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1016:12:0",
+                          "src": "1094:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_User_$8_storage",
                             "typeString": "struct Hodl.User storage ref"
                           }
                         },
-                        "id": 129,
+                        "id": 131,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -1626,7 +1663,7 @@
                         "memberName": "earliest",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 3,
-                        "src": "1016:21:0",
+                        "src": "1094:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1638,26 +1675,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 130,
+                            "id": 132,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 12,
-                            "src": "1039:5:0",
+                            "src": "1117:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                               "typeString": "mapping(address => struct Hodl.User storage ref)"
                             }
                           },
-                          "id": 132,
+                          "id": 134,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 131,
+                            "id": 133,
                             "name": "_user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
-                            "src": "1045:5:0",
+                            "referencedDeclaration": 119,
+                            "src": "1123:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1668,13 +1705,13 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1039:12:0",
+                          "src": "1117:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_User_$8_storage",
                             "typeString": "struct Hodl.User storage ref"
                           }
                         },
-                        "id": 133,
+                        "id": 135,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -1682,7 +1719,7 @@
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 5,
-                        "src": "1039:19:0",
+                        "src": "1117:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1694,26 +1731,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 134,
+                            "id": 136,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 12,
-                            "src": "1060:5:0",
+                            "src": "1138:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                               "typeString": "mapping(address => struct Hodl.User storage ref)"
                             }
                           },
-                          "id": 136,
+                          "id": 138,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 135,
+                            "id": 137,
                             "name": "_user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
-                            "src": "1066:5:0",
+                            "referencedDeclaration": 119,
+                            "src": "1144:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1724,13 +1761,13 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1060:12:0",
+                          "src": "1138:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_User_$8_storage",
                             "typeString": "struct Hodl.User storage ref"
                           }
                         },
-                        "id": 137,
+                        "id": 139,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -1738,51 +1775,51 @@
                         "memberName": "hodler",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 7,
-                        "src": "1060:19:0",
+                        "src": "1138:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       }
                     ],
-                    "id": 138,
+                    "id": 140,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "1015:65:0",
+                    "src": "1093:65:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_uint256_$_t_uint256_$_t_bool_$",
                       "typeString": "tuple(uint256,uint256,bool)"
                     }
                   },
-                  "functionReturnParameters": 125,
-                  "id": 139,
+                  "functionReturnParameters": 127,
+                  "id": 141,
                   "nodeType": "Return",
-                  "src": "1009:71:0"
+                  "src": "1087:71:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 141,
+            "id": 143,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getUser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 118,
+              "id": 120,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 117,
+                  "id": 119,
                   "name": "_user",
                   "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "949:13:0",
+                  "scope": 143,
+                  "src": "1027:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1790,10 +1827,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 116,
+                    "id": 118,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "949:7:0",
+                    "src": "1027:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1804,45 +1841,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "948:15:0"
+              "src": "1026:15:0"
             },
             "returnParameters": {
-              "id": 125,
+              "id": 127,
               "nodeType": "ParameterList",
               "parameters": [
-                {
-                  "constant": false,
-                  "id": 120,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "984:4:0",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 119,
-                    "name": "uint",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "984:4:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
                 {
                   "constant": false,
                   "id": 122,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "990:4:0",
+                  "scope": 143,
+                  "src": "1062:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1853,7 +1864,7 @@
                     "id": 121,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "990:4:0",
+                    "src": "1062:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1867,8 +1878,34 @@
                   "id": 124,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "996:4:0",
+                  "scope": 143,
+                  "src": "1068:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 123,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1068:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 126,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 143,
+                  "src": "1074:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1876,10 +1913,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 123,
+                    "id": 125,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "996:4:0",
+                    "src": "1074:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1889,29 +1926,29 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "983:18:0"
+              "src": "1061:18:0"
             },
-            "scope": 142,
-            "src": "932:154:0",
+            "scope": 144,
+            "src": "1010:154:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 143,
-        "src": "27:1062:0"
+        "scope": 145,
+        "src": "27:1140:0"
       }
     ],
-    "src": "0:1089:0"
+    "src": "0:1167:0"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/kaden/Documents/code/hodl/contracts/Hodl.sol",
     "exportedSymbols": {
       "Hodl": [
-        142
+        144
       ]
     },
-    "id": 143,
+    "id": 145,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -1931,9 +1968,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 142,
+        "id": 144,
         "linearizedBaseContracts": [
-          142
+          144
         ],
         "name": "Hodl",
         "nodeType": "ContractDefinition",
@@ -2023,7 +2060,7 @@
             ],
             "name": "User",
             "nodeType": "StructDefinition",
-            "scope": 142,
+            "scope": 144,
             "src": "46:74:0",
             "visibility": "public"
           },
@@ -2032,7 +2069,7 @@
             "id": 12,
             "name": "users",
             "nodeType": "VariableDeclaration",
-            "scope": 142,
+            "scope": 144,
             "src": "128:38:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2076,9 +2113,9 @@
           },
           {
             "body": {
-              "id": 62,
+              "id": 64,
               "nodeType": "Block",
-              "src": "233:315:0",
+              "src": "233:393:0",
               "statements": [
                 {
                   "expression": {
@@ -2103,7 +2140,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 214,
+                            "referencedDeclaration": 216,
                             "src": "248:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2179,10 +2216,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
+                      "referencedDeclaration": 220,
                       "src": "240:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2217,7 +2254,7 @@
                       "id": 28,
                       "name": "user",
                       "nodeType": "VariableDeclaration",
-                      "scope": 62,
+                      "scope": 64,
                       "src": "335:17:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
@@ -2266,7 +2303,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 214,
+                        "referencedDeclaration": 216,
                         "src": "361:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -2405,10 +2442,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
+                      "referencedDeclaration": 220,
                       "src": "379:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2436,7 +2473,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 48,
+                    "id": 50,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2450,7 +2487,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 28,
-                        "src": "460:4:0",
+                        "src": "533:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
@@ -2464,7 +2501,7 @@
                       "memberName": "earliest",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 3,
-                      "src": "460:13:0",
+                      "src": "533:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2478,19 +2515,51 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 47,
+                      "id": 49,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "argumentTypes": null,
-                        "id": 45,
-                        "name": "now",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 216,
-                        "src": "476:3:0",
+                        "commonType": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "id": 47,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 45,
+                          "name": "now",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 218,
+                          "src": "549:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "+",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "id": 46,
+                          "name": "fromNow",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 14,
+                          "src": "555:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "src": "549:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2500,37 +2569,42 @@
                       "operator": "+",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 46,
-                        "name": "fromNow",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 14,
-                        "src": "482:7:0",
+                        "hexValue": "3135",
+                        "id": 48,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "565:2:0",
+                        "subdenomination": null,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
+                          "typeIdentifier": "t_rational_15_by_1",
+                          "typeString": "int_const 15"
+                        },
+                        "value": "15"
                       },
-                      "src": "476:13:0",
+                      "src": "549:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "460:29:0",
+                    "src": "533:34:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 49,
+                  "id": 51,
                   "nodeType": "ExpressionStatement",
-                  "src": "460:29:0"
+                  "src": "533:34:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 54,
+                    "id": 56,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2539,18 +2613,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 50,
+                        "id": 52,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 28,
-                        "src": "496:4:0",
+                        "src": "574:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 52,
+                      "id": 54,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -2558,7 +2632,7 @@
                       "memberName": "amount",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 5,
-                      "src": "496:11:0",
+                      "src": "574:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2568,31 +2642,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 53,
+                      "id": 55,
                       "name": "_amount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 16,
-                      "src": "510:7:0",
+                      "src": "588:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "496:21:0",
+                    "src": "574:21:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 55,
+                  "id": 57,
                   "nodeType": "ExpressionStatement",
-                  "src": "496:21:0"
+                  "src": "574:21:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 60,
+                    "id": 62,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2601,18 +2675,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 56,
+                        "id": 58,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 28,
-                        "src": "524:4:0",
+                        "src": "602:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 58,
+                      "id": 60,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -2620,7 +2694,7 @@
                       "memberName": "hodler",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 7,
-                      "src": "524:11:0",
+                      "src": "602:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -2631,14 +2705,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "74727565",
-                      "id": 59,
+                      "id": 61,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "538:4:0",
+                      "src": "616:4:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2646,20 +2720,20 @@
                       },
                       "value": "true"
                     },
-                    "src": "524:18:0",
+                    "src": "602:18:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 61,
+                  "id": 63,
                   "nodeType": "ExpressionStatement",
-                  "src": "524:18:0"
+                  "src": "602:18:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 63,
+            "id": 65,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -2674,7 +2748,7 @@
                   "id": 14,
                   "name": "fromNow",
                   "nodeType": "VariableDeclaration",
-                  "scope": 63,
+                  "scope": 65,
                   "src": "190:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2700,7 +2774,7 @@
                   "id": 16,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 63,
+                  "scope": 65,
                   "src": "204:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2730,30 +2804,30 @@
               "parameters": [],
               "src": "233:0:0"
             },
-            "scope": 142,
-            "src": "173:375:0",
+            "scope": 144,
+            "src": "173:453:0",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 114,
+              "id": 116,
               "nodeType": "Block",
-              "src": "583:341:0",
+              "src": "661:341:0",
               "statements": [
                 {
                   "assignments": [
-                    67
+                    69
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 67,
+                      "id": 69,
                       "name": "user",
                       "nodeType": "VariableDeclaration",
-                      "scope": 114,
-                      "src": "590:17:0",
+                      "scope": 116,
+                      "src": "668:17:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -2762,11 +2836,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 66,
+                        "id": 68,
                         "name": "User",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 8,
-                        "src": "590:4:0",
+                        "src": "668:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User"
@@ -2776,39 +2850,39 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 72,
+                  "id": 74,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 68,
+                      "id": 70,
                       "name": "users",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 12,
-                      "src": "610:5:0",
+                      "src": "688:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                         "typeString": "mapping(address => struct Hodl.User storage ref)"
                       }
                     },
-                    "id": 71,
+                    "id": 73,
                     "indexExpression": {
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 69,
+                        "id": 71,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 214,
-                        "src": "616:3:0",
+                        "referencedDeclaration": 216,
+                        "src": "694:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 70,
+                      "id": 72,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2816,7 +2890,7 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "616:10:0",
+                      "src": "694:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
@@ -2827,14 +2901,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "610:17:0",
+                    "src": "688:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_User_$8_storage",
                       "typeString": "struct Hodl.User storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "590:37:0"
+                  "src": "668:37:0"
                 },
                 {
                   "expression": {
@@ -2846,7 +2920,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 77,
+                        "id": 79,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2855,18 +2929,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 74,
+                            "id": 76,
                             "name": "user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 67,
-                            "src": "648:4:0",
+                            "referencedDeclaration": 69,
+                            "src": "726:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                               "typeString": "struct Hodl.User storage pointer"
                             }
                           },
-                          "id": 75,
+                          "id": 77,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -2874,7 +2948,7 @@
                           "memberName": "hodler",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 7,
-                          "src": "648:11:0",
+                          "src": "726:11:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -2885,14 +2959,14 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 76,
+                          "id": 78,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "663:4:0",
+                          "src": "741:4:0",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -2900,7 +2974,7 @@
                           },
                           "value": "true"
                         },
-                        "src": "648:19:0",
+                        "src": "726:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2909,14 +2983,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "596f75206d757374206265206120686f646c657220746f206d616b652061207769746864726177616c2e",
-                        "id": 78,
+                        "id": 80,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "669:44:0",
+                        "src": "747:44:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_39600b71089d87aac6981eb84deb5f17c78407ed8c20811656b979e60fb05a1a",
@@ -2936,21 +3010,21 @@
                           "typeString": "literal_string \"You must be a hodler to make a withdrawal.\""
                         }
                       ],
-                      "id": 73,
+                      "id": 75,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
-                      "src": "640:7:0",
+                      "referencedDeclaration": 220,
+                      "src": "718:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 79,
+                    "id": 81,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2958,15 +3032,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "640:74:0",
+                    "src": "718:74:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 80,
+                  "id": 82,
                   "nodeType": "ExpressionStatement",
-                  "src": "640:74:0"
+                  "src": "718:74:0"
                 },
                 {
                   "expression": {
@@ -2978,19 +3052,19 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 85,
+                        "id": 87,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 82,
+                          "id": 84,
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 216,
-                          "src": "729:3:0",
+                          "referencedDeclaration": 218,
+                          "src": "807:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3002,18 +3076,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 83,
+                            "id": 85,
                             "name": "user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 67,
-                            "src": "736:4:0",
+                            "referencedDeclaration": 69,
+                            "src": "814:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                               "typeString": "struct Hodl.User storage pointer"
                             }
                           },
-                          "id": 84,
+                          "id": 86,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -3021,13 +3095,13 @@
                           "memberName": "earliest",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 3,
-                          "src": "736:13:0",
+                          "src": "814:13:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "729:20:0",
+                        "src": "807:20:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3036,14 +3110,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "596f752063616e6e6f742079657420776974686472617720796f757220686f6c64696e67732e",
-                        "id": 86,
+                        "id": 88,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "751:40:0",
+                        "src": "829:40:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_e4c09a8f4385d4d0bea824f1898dafbf5342eba4bde8dcb1f0a96c3b4342e0c9",
@@ -3063,21 +3137,21 @@
                           "typeString": "literal_string \"You cannot yet withdraw your holdings.\""
                         }
                       ],
-                      "id": 81,
+                      "id": 83,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        217,
-                        218
+                        219,
+                        220
                       ],
-                      "referencedDeclaration": 218,
-                      "src": "721:7:0",
+                      "referencedDeclaration": 220,
+                      "src": "799:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 87,
+                    "id": 89,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3085,28 +3159,28 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "721:71:0",
+                    "src": "799:71:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 88,
+                  "id": 90,
                   "nodeType": "ExpressionStatement",
-                  "src": "721:71:0"
+                  "src": "799:71:0"
                 },
                 {
                   "assignments": [
-                    90
+                    92
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 90,
+                      "id": 92,
                       "name": "amount",
                       "nodeType": "VariableDeclaration",
-                      "scope": 114,
-                      "src": "805:11:0",
+                      "scope": 116,
+                      "src": "883:11:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3114,10 +3188,10 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 89,
+                        "id": 91,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
-                        "src": "805:4:0",
+                        "src": "883:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3127,23 +3201,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 93,
+                  "id": 95,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
-                      "id": 91,
+                      "id": 93,
                       "name": "user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 67,
-                      "src": "819:4:0",
+                      "referencedDeclaration": 69,
+                      "src": "897:4:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                         "typeString": "struct Hodl.User storage pointer"
                       }
                     },
-                    "id": 92,
+                    "id": 94,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
@@ -3151,19 +3225,19 @@
                     "memberName": "amount",
                     "nodeType": "MemberAccess",
                     "referencedDeclaration": 5,
-                    "src": "819:11:0",
+                    "src": "897:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "805:25:0"
+                  "src": "883:25:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 98,
+                    "id": 100,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3172,18 +3246,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 94,
+                        "id": 96,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 67,
-                        "src": "843:4:0",
+                        "referencedDeclaration": 69,
+                        "src": "921:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 96,
+                      "id": 98,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -3191,7 +3265,7 @@
                       "memberName": "hodler",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 7,
-                      "src": "843:11:0",
+                      "src": "921:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -3202,14 +3276,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "66616c7365",
-                      "id": 97,
+                      "id": 99,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "857:5:0",
+                      "src": "935:5:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -3217,20 +3291,20 @@
                       },
                       "value": "false"
                     },
-                    "src": "843:19:0",
+                    "src": "921:19:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 99,
+                  "id": 101,
                   "nodeType": "ExpressionStatement",
-                  "src": "843:19:0"
+                  "src": "921:19:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 104,
+                    "id": 106,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3239,18 +3313,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 100,
+                        "id": 102,
                         "name": "user",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 67,
-                        "src": "869:4:0",
+                        "referencedDeclaration": 69,
+                        "src": "947:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_User_$8_storage_ptr",
                           "typeString": "struct Hodl.User storage pointer"
                         }
                       },
-                      "id": 102,
+                      "id": 104,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -3258,7 +3332,7 @@
                       "memberName": "amount",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 5,
-                      "src": "869:11:0",
+                      "src": "947:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3269,14 +3343,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 103,
+                      "id": 105,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "883:1:0",
+                      "src": "961:1:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -3284,15 +3358,15 @@
                       },
                       "value": "0"
                     },
-                    "src": "869:15:0",
+                    "src": "947:15:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 105,
+                  "id": 107,
                   "nodeType": "ExpressionStatement",
-                  "src": "869:15:0"
+                  "src": "947:15:0"
                 },
                 {
                   "expression": {
@@ -3300,12 +3374,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 111,
+                        "id": 113,
                         "name": "amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 90,
-                        "src": "911:6:0",
+                        "referencedDeclaration": 92,
+                        "src": "989:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3323,18 +3397,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 106,
+                          "id": 108,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 214,
-                          "src": "891:3:0",
+                          "referencedDeclaration": 216,
+                          "src": "969:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 109,
+                        "id": 111,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3342,13 +3416,13 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "891:10:0",
+                        "src": "969:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 110,
+                      "id": 112,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3356,13 +3430,13 @@
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "891:19:0",
+                      "src": "969:19:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 112,
+                    "id": 114,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3370,48 +3444,48 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "891:27:0",
+                    "src": "969:27:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 113,
+                  "id": 115,
                   "nodeType": "ExpressionStatement",
-                  "src": "891:27:0"
+                  "src": "969:27:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 115,
+            "id": 117,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "withdraw",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 64,
+              "id": 66,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "573:2:0"
+              "src": "651:2:0"
             },
             "returnParameters": {
-              "id": 65,
+              "id": 67,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "583:0:0"
+              "src": "661:0:0"
             },
-            "scope": 142,
-            "src": "556:368:0",
+            "scope": 144,
+            "src": "634:368:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 140,
+              "id": 142,
               "nodeType": "Block",
-              "src": "1002:84:0",
+              "src": "1080:84:0",
               "statements": [
                 {
                   "expression": {
@@ -3423,26 +3497,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 126,
+                            "id": 128,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 12,
-                            "src": "1016:5:0",
+                            "src": "1094:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                               "typeString": "mapping(address => struct Hodl.User storage ref)"
                             }
                           },
-                          "id": 128,
+                          "id": 130,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 127,
+                            "id": 129,
                             "name": "_user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
-                            "src": "1022:5:0",
+                            "referencedDeclaration": 119,
+                            "src": "1100:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -3453,13 +3527,13 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1016:12:0",
+                          "src": "1094:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_User_$8_storage",
                             "typeString": "struct Hodl.User storage ref"
                           }
                         },
-                        "id": 129,
+                        "id": 131,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -3467,7 +3541,7 @@
                         "memberName": "earliest",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 3,
-                        "src": "1016:21:0",
+                        "src": "1094:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3479,26 +3553,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 130,
+                            "id": 132,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 12,
-                            "src": "1039:5:0",
+                            "src": "1117:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                               "typeString": "mapping(address => struct Hodl.User storage ref)"
                             }
                           },
-                          "id": 132,
+                          "id": 134,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 131,
+                            "id": 133,
                             "name": "_user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
-                            "src": "1045:5:0",
+                            "referencedDeclaration": 119,
+                            "src": "1123:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -3509,13 +3583,13 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1039:12:0",
+                          "src": "1117:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_User_$8_storage",
                             "typeString": "struct Hodl.User storage ref"
                           }
                         },
-                        "id": 133,
+                        "id": 135,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -3523,7 +3597,7 @@
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 5,
-                        "src": "1039:19:0",
+                        "src": "1117:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3535,26 +3609,26 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 134,
+                            "id": 136,
                             "name": "users",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 12,
-                            "src": "1060:5:0",
+                            "src": "1138:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_User_$8_storage_$",
                               "typeString": "mapping(address => struct Hodl.User storage ref)"
                             }
                           },
-                          "id": 136,
+                          "id": 138,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 135,
+                            "id": 137,
                             "name": "_user",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 117,
-                            "src": "1066:5:0",
+                            "referencedDeclaration": 119,
+                            "src": "1144:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -3565,13 +3639,13 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1060:12:0",
+                          "src": "1138:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_User_$8_storage",
                             "typeString": "struct Hodl.User storage ref"
                           }
                         },
-                        "id": 137,
+                        "id": 139,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -3579,51 +3653,51 @@
                         "memberName": "hodler",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 7,
-                        "src": "1060:19:0",
+                        "src": "1138:19:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       }
                     ],
-                    "id": 138,
+                    "id": 140,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "1015:65:0",
+                    "src": "1093:65:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_uint256_$_t_uint256_$_t_bool_$",
                       "typeString": "tuple(uint256,uint256,bool)"
                     }
                   },
-                  "functionReturnParameters": 125,
-                  "id": 139,
+                  "functionReturnParameters": 127,
+                  "id": 141,
                   "nodeType": "Return",
-                  "src": "1009:71:0"
+                  "src": "1087:71:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 141,
+            "id": 143,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getUser",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 118,
+              "id": 120,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 117,
+                  "id": 119,
                   "name": "_user",
                   "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "949:13:0",
+                  "scope": 143,
+                  "src": "1027:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3631,10 +3705,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 116,
+                    "id": 118,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "949:7:0",
+                    "src": "1027:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3645,45 +3719,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "948:15:0"
+              "src": "1026:15:0"
             },
             "returnParameters": {
-              "id": 125,
+              "id": 127,
               "nodeType": "ParameterList",
               "parameters": [
-                {
-                  "constant": false,
-                  "id": 120,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "984:4:0",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  },
-                  "typeName": {
-                    "id": 119,
-                    "name": "uint",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "984:4:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
                 {
                   "constant": false,
                   "id": 122,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "990:4:0",
+                  "scope": 143,
+                  "src": "1062:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3694,7 +3742,7 @@
                     "id": 121,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "990:4:0",
+                    "src": "1062:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3708,8 +3756,34 @@
                   "id": 124,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 141,
-                  "src": "996:4:0",
+                  "scope": 143,
+                  "src": "1068:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 123,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1068:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 126,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 143,
+                  "src": "1074:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3717,10 +3791,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 123,
+                    "id": 125,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "996:4:0",
+                    "src": "1074:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3730,20 +3804,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "983:18:0"
+              "src": "1061:18:0"
             },
-            "scope": 142,
-            "src": "932:154:0",
+            "scope": 144,
+            "src": "1010:154:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 143,
-        "src": "27:1062:0"
+        "scope": 145,
+        "src": "27:1140:0"
       }
     ],
-    "src": "0:1089:0"
+    "src": "0:1167:0"
   },
   "compiler": {
     "name": "solc",
@@ -3759,12 +3833,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x538DE3Dbd202Fc4970269e1dccD2Dd93e885e545",
-      "transactionHash": "0x950282c1c5d3d474251d187376aa70754220071ce78c40b1536e86c704122308"
+      "address": "0x00DF98E9101436daA392E09B35998b04F9cA1209",
+      "transactionHash": "0x356f4504a0960db687c23dd371668588244d96af9b159dbf40360acbccb40642"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-10-02T19:25:29.832Z",
+  "updatedAt": "2019-10-02T21:12:29.556Z",
   "devdoc": {
     "methods": {}
   },
