@@ -36,6 +36,7 @@ class Hero extends Component {
       }
     ).on('confirmation', () => {
       this.props.setMessage('Transaction Confirmed!');
+      this.props.getUser();
       setTimeout(() => {
         this.props.clearMessage();
       }, 10000);
