@@ -67,6 +67,12 @@ class Hodler extends Component {
       setTimeout(() => {
         this.props.clearMessage();
       }, 10000);
+    }).on('error', () => {
+      this.props.setMessage('Transaction Failed.');
+      this.props.getUser();
+      setTimeout(() => {
+        this.props.clearMessage();
+      }, 10000);
     });
   }
 
