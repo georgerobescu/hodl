@@ -7,8 +7,14 @@ class Hodler extends Component {
     date: null
   };
 
-  componentDidMount() {
-    this.getTime();
+  componentDidMount = () => {
+    this.interval = setInterval(() => {
+      this.getTime();
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
 
   getTime() {
