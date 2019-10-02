@@ -59,6 +59,8 @@ class Hodler extends Component {
   handleWithdrawal = () => {
     this.props.contract.methods.withdraw().send({
       from: this.props.accounts[0]
+    }, () => {
+      this.props.getUser();
     });
   }
 

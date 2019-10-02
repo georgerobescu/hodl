@@ -9,8 +9,18 @@ import Hodler from './components/Hodler';
 import './layout/config/_base.sass';
 
 class App extends Component {
-  state = { web3: null, accounts: null, contract: null, user: null };
+  constructor(props) {
+    super(props);
+    this.state = { 
+      web3: null, 
+      accounts: null, 
+      contract: null, 
+      user: null
+    };
 
+    this.getUser = this.getUser.bind(this);
+  }
+ 
   componentDidMount = async () => {
     try {
       // Get network provider and web3 instance.
@@ -49,25 +59,25 @@ class App extends Component {
         hodler: user[2]
       }});
     });
+    console.log('Get user');
   }
 
   render() {
     if (!this.state.web3) {
       return <div>Loading Web3, accounts, and contract...</div>;
     }
-    console.log(this.state.user);
     if (this.state.user && this.state.user.hodler) {
       return (
         <div>
           <Nav />
-          <Hodler {...this.state} />
+          <Hodler {...this.state} getUser={this.getUser} />
         </div>
       );
     } else {
       return (
         <div>
           <Nav />
-          <Hero {...this.state} />
+          <Hero {...this.state} getUser={this.getUser} />
         </div>
       );
     }

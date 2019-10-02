@@ -25,16 +25,15 @@ class Hero extends Component {
   handleSubmit(e) {
     e.preventDefault();
 
-    console.log('Amount: ', this.state.amount);
-    console.log('Time: ', this.state.time);
-    console.log('Contract: ', this.props.contract);
-
     this.props.contract.methods.deposit(
       this.state.time, 
       this.props.web3.utils.toWei(this.state.amount)
     ).send(
       {from: this.props.accounts[0],
-      value: this.props.web3.utils.toWei(this.state.amount)}
+      value: this.props.web3.utils.toWei(this.state.amount)},
+      () => {
+        this.props.getUser();
+      }
     );
   }
 
