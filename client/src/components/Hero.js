@@ -32,9 +32,14 @@ class Hero extends Component {
       {from: this.props.account,
       value: this.props.web3.utils.toWei(this.state.amount)},
       () => {
-        this.props.getUser();
+        this.props.setMessage('Transaction Pending...');
       }
-    );
+    ).on('confirmation', () => {
+      this.props.setMessage('Transaction Confirmed!');
+      setTimeout(() => {
+        this.props.clearMessage();
+      }, 10000);
+    });
   }
 
   render() {

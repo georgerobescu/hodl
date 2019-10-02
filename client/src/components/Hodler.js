@@ -60,7 +60,12 @@ class Hodler extends Component {
     this.props.contract.methods.withdraw().send({
       from: this.props.account
     }, () => {
-      this.props.getUser();
+      this.props.setMessage('Transaction Pending...');
+    }).on('confirmation', () => {
+      this.props.setMessage('Transaction Confirmed!');
+      setTimeout(() => {
+        this.props.clearMessage();
+      }, 10000);
     });
   }
 

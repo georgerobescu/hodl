@@ -5,6 +5,7 @@ import getWeb3 from "./utils/getWeb3";
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Hodler from './components/Hodler';
+import Message from './components/Message';
 
 import './layout/config/_base.sass';
 
@@ -15,10 +16,13 @@ class App extends Component {
       web3: null, 
       account: null, 
       contract: null, 
-      user: null
+      user: null,
+      message: null
     };
 
     this.getUser = this.getUser.bind(this);
+    this.setMessage = this.setMessage.bind(this);
+    this.clearMessage = this.clearMessage.bind(this);
   }
  
   componentDidMount = async () => {
@@ -73,7 +77,18 @@ class App extends Component {
         hodler: user[2]
       }});
     });
-    console.log('Get user');
+  }
+
+  setMessage(newMessage) {
+    this.setState({
+      message: newMessage
+    });
+  }
+
+  clearMessage() {
+    this.setState({
+      message: null
+    });
   }
 
   render() {
@@ -84,14 +99,26 @@ class App extends Component {
       return (
         <div>
           <Nav />
-          <Hodler {...this.state} getUser={this.getUser} />
+          <Hodler 
+            {...this.state} 
+            getUser={this.getUser} 
+            setMessage={this.setMessage}
+            clearMessage={this.clearMessage}
+          />
+          <Message message={this.state.message} />
         </div>
       );
     } else {
       return (
         <div>
           <Nav />
-          <Hero {...this.state} getUser={this.getUser} />
+          <Hero 
+            {...this.state} 
+            getUser={this.getUser}
+            setMessage={this.setMessage}
+            clearMessage={this.clearMessage}
+          />
+          <Message message={this.state.message} />
         </div>
       );
     }
