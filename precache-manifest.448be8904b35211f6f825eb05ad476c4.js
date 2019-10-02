@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/hodl/static/css/main.cdc4b6b5.chunk.css"
   },
   {
-    "revision": "e5982b1e8f7c4c89caca1d725c88783d",
+    "revision": "bb69a1b6d760f3780ab77ba7265183c6",
     "url": "/hodl/index.html"
   }
 ];
