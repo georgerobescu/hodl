@@ -56,10 +56,16 @@ class Hodler extends Component {
     }
   }
 
+  handleWithdrawal = () => {
+    this.props.contract.methods.withdraw().send({
+      from: this.props.accounts[0]
+    });
+  }
+
   renderButton() {
     if(this.state.date === 0) {
       return(
-        <button className="hodler__button">
+        <button onClick={this.handleWithdrawal} className="hodler__button">
           Withdraw
         </button>
       );
