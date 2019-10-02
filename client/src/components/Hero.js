@@ -29,7 +29,7 @@ class Hero extends Component {
       this.state.time, 
       this.props.web3.utils.toWei(this.state.amount)
     ).send(
-      {from: this.props.accounts[0],
+      {from: this.props.account,
       value: this.props.web3.utils.toWei(this.state.amount)},
       () => {
         this.props.getUser();
@@ -69,7 +69,7 @@ class Hero extends Component {
           <br />
           smart contract for as long as specified and can only be 
           <br />
-          withdrawn by {this.props.accounts[0]}.
+          withdrawn by {this.props.account}.
         </p>
       </section>
     );

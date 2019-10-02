@@ -13,7 +13,7 @@ class App extends Component {
     super(props);
     this.state = { 
       web3: null, 
-      accounts: null, 
+      account: null, 
       contract: null, 
       user: null
     };
@@ -28,6 +28,7 @@ class App extends Component {
 
       // Use web3 to get the user's accounts.
       const accounts = await web3.eth.getAccounts();
+      const account = accounts[0];
 
       // Get the contract instance.
       const networkId = await web3.eth.net.getId();
@@ -37,9 +38,9 @@ class App extends Component {
         deployedNetwork && deployedNetwork.address,
       );
 
-      // Set web3, accounts, and contract to the state, and then proceed with an
+      // Set web3, account, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
-      this.setState({ web3, accounts, contract: instance });
+      this.setState({ web3, account, contract: instance });
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(
@@ -49,10 +50,23 @@ class App extends Component {
     }
 
     this.getUser();
+
+    this.accountInterval = setInterval(async () => {
+      const accounts = await this.state.web3.eth.getAccounts();
+      if (accounts[0] !== this.state.account) {
+        this.setState({
+          account: accounts[0]
+        });
+      }
+    }, 1000);
   };
 
+  componentWillUnmount() {
+    clearInterval(this.accountInterval);
+  }
+
   async getUser() {
-    await this.state.contract.methods.getUser(this.state.accounts[0]).call((err, user) => {
+    await this.state.contract.methods.getUser(this.state.account).call((err, user) => {
       this.setState({user: {
         earliest: user[0],
         amount: user[1],
