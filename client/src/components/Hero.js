@@ -57,7 +57,7 @@ class Hero extends Component {
         <p className="hero__directions">
           Enter amount and lockup time.
         </p>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} className="hero__form">
           <input 
             type="text" 
             name="amount"
@@ -77,10 +77,8 @@ class Hero extends Component {
           <button className="hero__button">Go</button>
         </form>
         <p className="hero__disclaimer">
-          The value sent with this transaction will be locked in a
-          <br />
+          The value sent with this transaction will be locked in a 
           smart contract for as long as specified and can only be 
-          <br />
           withdrawn by {this.props.account}.
         </p>
       </section>

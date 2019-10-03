@@ -1,4 +1,5 @@
 @import ../config/colors
+@import ../config/breakpoints
   
 .message
   position: absolute
@@ -12,3 +13,8 @@
   display: flex
   align-items: center
   justify-content: center
+  +media($breakpoint-sm)
+    right: 50%
+    transform: translateX(50%)
+    max-width: 80%
+    bottom: 30px
