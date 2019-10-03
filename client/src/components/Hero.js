@@ -81,6 +81,7 @@ class Hero extends Component {
           smart contract for as long as specified and can only be 
           withdrawn by {this.props.account}.
         </p>
+        <p className="hero__funds">Total eth locked: {this.props.balance}</p>
       </section>
     );
   }

@@ -17,7 +17,8 @@ class App extends Component {
       account: null, 
       contract: null, 
       user: null,
-      message: null
+      message: null,
+      balance: null
     };
 
     this.getUser = this.getUser.bind(this);
@@ -54,6 +55,7 @@ class App extends Component {
     }
 
     this.getUser();
+    this.getBalance();
 
     this.accountInterval = setInterval(async () => {
       const accounts = await this.state.web3.eth.getAccounts();
@@ -88,6 +90,17 @@ class App extends Component {
   clearMessage() {
     this.setState({
       message: null
+    });
+  }
+
+  getBalance() {
+    this.state.contract.methods.getBalance().call((err, result) => {
+      if(err) {
+        return console.error(err);
+      }
+      this.setState({
+        balance: this.state.web3.utils.fromWei(result.toString(), 'ether')
+      });
     });
   }
 

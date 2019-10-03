@@ -36,4 +36,8 @@ contract Hodl {
   function getUser(address _user) view public returns(uint, uint, bool) {
     return(users[_user].earliest, users[_user].amount, users[_user].hodler);
   }
+  
+  function getBalance() view public returns(uint) {
+    return address(this).balance;
+  }
 }

@@ -5,9 +5,9 @@ import '../layout/components/nav.sass';
 function Nav() {
   return (
     <nav className="nav">
-      <a className="nav__brand">
+      <h1 className="nav__brand">
         HODL
-      </a>
+      </h1>
       <a href="https://github.com/KadenZipfel/hodl" className="nav__icon">
         <img src={github} alt="Github" className="nav__icon" />
       </a>
