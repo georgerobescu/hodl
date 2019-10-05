@@ -3,6 +3,7 @@
 Hodl is a decentralized application built on Ethereum. Using Hodl, you can lock your funds in a smart contract to prevent your weak hands from getting the best of you.
 
 # Features
+
 - Full test suite
 - Transaction lifecycle notifications, i.e. 'Transaction Pending', 'Transaction Confirmed'
 - Security audit (pending)
@@ -10,6 +11,7 @@ Hodl is a decentralized application built on Ethereum. Using Hodl, you can lock 
 - Elegant minimalist design
 - React front-end
 - Seamless contract interaction
+- Flawless mobile optimization
 
 # Getting started
 
