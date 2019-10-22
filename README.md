@@ -7,7 +7,7 @@ Hodl is a decentralized application built on Ethereum. Using Hodl, you can lock 
 - Full test suite
 - Transaction lifecycle notifications, i.e. 'Transaction Pending', 'Transaction Confirmed'
 - Security audit (pending)
-- Solidity 0.5.0
+- Solidity 0.5.8
 - Elegant minimalist design
 - React front-end
 - Seamless contract interaction
