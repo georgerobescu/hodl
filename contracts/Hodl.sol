@@ -1,6 +1,10 @@
 pragma solidity 0.5.8;
 
+import './lib/SafeMath.sol';
+
 contract Hodl {
+  using SafeMath for uint;
+
   struct User {
     uint earliest;
     uint amount;
