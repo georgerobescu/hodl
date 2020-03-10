@@ -105,13 +105,10 @@ class App extends Component {
   }
 
   render() {
-    if (!this.state.web3) {
-      return <div>Loading Web3, accounts, and contract...</div>;
-    }
     if (this.state.user && this.state.user.hodler) {
       return (
         <div>
-          <Nav />
+          <Nav {...this.state} />
           <Hodler 
             {...this.state} 
             getUser={this.getUser} 
@@ -124,7 +121,7 @@ class App extends Component {
     } else {
       return (
         <div>
-          <Nav />
+          <Nav {...this.state} />
           <Hero 
             {...this.state} 
             getUser={this.getUser}
