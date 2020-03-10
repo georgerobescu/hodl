@@ -47,10 +47,6 @@ class App extends Component {
       // example of interacting with the contract's methods.
       this.setState({ web3, account, contract: instance });
     } catch (error) {
-      // Catch any errors for any of the above operations.
-      alert(
-        `Failed to load web3, accounts, or contract. Check console for details.`,
-      );
       console.error(error);
     }
 
